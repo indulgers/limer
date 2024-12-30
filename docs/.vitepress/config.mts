@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Limer`s Messy World",
-  base: '/vitpress/',
+  base: '/limer/',
   description: "My werid diary, welcome to share and grow with me.",
   themeConfig: {
     logo:'/logo.png',
