@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DIMq2yU-.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blogs.md","filePath":"blogs.md","lastUpdated":1735559730000}'),o={name:"blogs.md"};function s(r,c,n,d,l,p){return a(),t("div")}const m=e(o,[["render",s]]);export{i as __pageData,m as default};
