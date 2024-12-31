@@ -5,6 +5,12 @@ export default defineConfig({
   title: "Limer`s Messy World",
   base: '/limer/',
   description: "My werid diary, welcome to share and grow with me.",
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }],
+['link', { rel: 'icon', type: 'image/png', href: 'favicon-32x32.png' }],
+['link', { rel: 'icon', type: 'image/png', href: 'favicon-16x16.png' }],
+['link', { rel: 'manifest', href: 'site.webmanifest' }],
+['link', { rel: 'apple-touch-icon', sizes: '180x180', href: 'apple-touch-icon.png' }],
+],
   themeConfig: {
     logo:'logo.png',
     // https://vitepress.dev/reference/default-theme-config
