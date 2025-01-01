@@ -15,23 +15,28 @@ export default defineConfig({
     logo:'logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '🙋🏻 About Me', link: '/about' },
-      { text: '📓 Blogs',link:'/notes'},
-      { text: '🦄 Projects', link: '/projects'},
-      { text: '👫 Community', link: '/friends'},
+      { text: '🙋🏻 About Me', link: '/docs/about' },
+      { text: '📓 Blogs',link:'/docs/blogs'},
+      { text: '🦄 Projects', link: '/docs/projects'},
+      { text: '👫 Community', link: '/docs/friends'},
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '📚 Frontend Dev',
         collapsed: true,
         items: [
-          { text: 'React', link: '/blogs/react' },
-          { text: 'Vue', link: '/blogs/vue' },
-          { text: 'JavaScript', link: '/blogs/javascript' },
-          { text: 'TypeScript', link: '/blogs/typescript' },
-          { text: 'Node.js', link: '/blogs/nodejs' },
-          { text: 'Webpack', link: '/blogs/webpack' },
+          { text: 'React', link: '/docs/react' },
+          { text: 'Vue', link: '/docs/vue' },
+          { text: 'JavaScript', link: '/docs/javascript' },
+          { text: 'TypeScript', link: '/docs/typescript' },
+          { text: 'Node.js', link: '/docs/node',
+            items:[
+            { text: 'Express', link: '/docs/node/express' },
+            { text: 'NestJS', link: '/docs/node/nest' },
+            { text: 'Koa', link: '/docs/node/koa' },
+          ] },
+          { text: 'Webpack', link: '/docs/webpack' },
           { text: 'Vite', link: '/blogs/vite' },
         ]
       }
@@ -41,7 +46,7 @@ export default defineConfig({
 
       { icon:'bilibili', link: 'https://space.bilibili.com/153428800' },
       { icon: 'github', link: 'https://github.com/indulgers' },
-      { icon: 'csdn',link:'https://blog.csdn.net/weixin_60895836?spm=1000.2115.3001.5343'},
+      // { icon: 'csdn',link:'https://blog.csdn.net/weixin_60895836?spm=1000.2115.3001.5343'},
       { icon: 'juejin',link:'https://juejin.cn/user/1629890315031623'},
     ],
     search: {

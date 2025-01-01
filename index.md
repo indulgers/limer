@@ -11,11 +11,11 @@ hero:
     alt: Limer`s Messy World
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 👉🏻 Get Started!  
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 🎯 Plan to Do
+      link: /docs/plans
 
 features:
   - icon: 📖
@@ -48,4 +48,7 @@ features:
     details: '<small class="bottom-small">一个想躺平的小开发</small>'
     link: https://notes.fe-mm.com/mao
 ---
+## 联系我:
+**微信公众号**
+![微信公众号](/public/qrcode.jpg)
 
